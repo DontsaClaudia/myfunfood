@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:textAlignment="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+        <TextView
+            android:id="@+id/person"
+            android:layout_width="133dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/_01_person_01"
+            android:textAlignment="center"
+            android:textColor="#2B2A2A"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.062"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Old"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/old"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/Days"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/person" />
+
+        <TextView
+            android:id="@+id/Weight"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/kg"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/Days"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="@+id/person" />
+
+        <TextView
+            android:id="@+id/Days"
+            android:layout_width="74dp"
+            android:layout_height="33dp"
+            android:layout_marginEnd="4dp"
+            android:text="@string/day_s"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.954" />
+
+        <TextView
+            android:id="@+id/Dishes"
+            android:layout_width="74dp"
+            android:layout_height="33dp"
+            android:layout_marginEnd="76dp"
+            android:text="@string/_01_dishe_s"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.954" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="23dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="312dp"
+            android:contentDescription="@string/edition"
+            app:layout_constraintBottom_toTopOf="@+id/Days"
+            app:layout_constraintEnd_toStartOf="@+id/cancel"
+            app:layout_constraintHorizontal_bias="0.836"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.849"
+            tools:srcCompat="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="23dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="384dp"
+            android:contentDescription="@string/canceling"
+            app:layout_constraintBottom_toTopOf="@+id/Days"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.849"
+            tools:srcCompat="@drawable/cancel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

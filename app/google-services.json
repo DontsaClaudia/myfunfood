@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "783732988892",
+    "firebase_url": "https://myfunfood-app-default-rtdb.firebaseio.com",
+    "project_id": "myfunfood-app",
+    "storage_bucket": "myfunfood-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783732988892:android:0e38b8a1e565b473098d19",
+        "android_client_info": {
+          "package_name": "com.example.myfunfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783732988892-kdf67c19tjaj9lu0boe9shmk2irn6lst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_nrVuAeSsEryGAHsWt8hASIOSkgOpfZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783732988892-kdf67c19tjaj9lu0boe9shmk2irn6lst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783732988892:android:43ab9e5df5b623f9098d19",
+        "android_client_info": {
+          "package_name": "com.example.myfunfoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783732988892-kdf67c19tjaj9lu0boe9shmk2irn6lst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_nrVuAeSsEryGAHsWt8hASIOSkgOpfZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783732988892-kdf67c19tjaj9lu0boe9shmk2irn6lst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

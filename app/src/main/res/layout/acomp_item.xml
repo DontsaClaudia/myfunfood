@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="180dp"
+    android:layout_width="300dp"
+    app:cardCornerRadius="100dp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:layout_marginTop="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<ImageView
+            android:id="@+id/acomp_img"
+            android:layout_width="163dp"
+            android:layout_height="148dp"
+            tools:srcCompat="@drawable/ndoles" />-->
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/accomp1"
+            android:layout_width="106dp"
+            android:layout_height="94dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="103dp"
+            android:layout_marginBottom="49dp"
+            android:elevation="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ndoles" />
+
+        <TextView
+            android:id="@+id/name_acomp"
+            android:layout_width="98dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="183dp"
+            android:layout_marginBottom="28dp"
+            android:text="name_accompagnement" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="35dp"
+            tools:srcCompat="@drawable/next_page" />
+
+        <ImageView
+            android:id="@+id/like3"
+            android:layout_width="51dp"
+            android:layout_height="56dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="62dp"
+            android:layout_marginBottom="104dp"
+            android:visibility="visible"
+            tools:srcCompat="@drawable/like" />
+
+        <CheckBox
+            android:id="@+id/check2"
+            android:layout_width="75dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="178dp"
+            android:layout_marginBottom="99dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
